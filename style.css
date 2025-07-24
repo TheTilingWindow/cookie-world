@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    background: #fff3e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.form-box {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+input, select {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: #d2691e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: #d2691e;
+    text-decoration: none;
+}
